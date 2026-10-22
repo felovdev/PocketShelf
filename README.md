@@ -2,7 +2,7 @@
 
 **Your stuff, always handy.** A lightweight, offline-first Android shelf for links, snippets, addresses, commands, and notes.
 
-[![Build APK](https://github.com/felovdev/app/actions/workflows/android.yml/badge.svg)](https://github.com/felovdev/app/actions/workflows/android.yml)
+[![Build APK](https://github.com/felovdev/PocketShelf/actions/workflows/android.yml/badge.svg)](https://github.com/felovdev/PocketShelf/actions/workflows/android.yml)
 
 ## Features
 - Save useful text and links with a title and tags.
