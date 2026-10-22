@@ -8,13 +8,13 @@
 - Save useful text and links with a title and tags.
 - Search saved items instantly.
 - Share text into PocketShelf from other Android apps.
-- Data stays on-device in a local SQLite database; no account, ads, analytics, or network permission.
-- Long-press an item to delete it.
+- Data stays on-device in a local SQLite database; no account, ads, analytics, or internet permission.
+- Tap an item to share it; long-press to delete it.
 
 ## Get the APK
 Open **Actions → Android APK → latest successful run → Artifacts → PocketShelf-debug-apk**. The workflow builds a debug APK from source on GitHub Actions.
 
-> This is an early MVP. Backups, import/export, and encrypted storage are planned, not yet implemented.
+> This is an early MVP. Backup/import/export and encrypted storage are not implemented yet.
 
 ## Build locally
 Requirements: JDK 17, Android SDK platform 35, Build Tools 35.0.0, Gradle 8.9.
@@ -26,7 +26,7 @@ gradle assembleDebug
 APK: `app/build/outputs/apk/debug/app-debug.apk`
 
 ## Privacy
-PocketShelf stores content in app-private local storage. It does not request internet access. Uninstalling the app removes its local database, so export/backup should be added before storing anything irreplaceable.
+PocketShelf stores content in app-private local storage. It does not request internet access. Uninstalling the app removes its local database, so do not store irreplaceable information until backup/export is implemented.
 
 ## License
-MIT — see [LICENSE](LICENSE).
+Apache-2.0 — see [LICENSE](LICENSE).
